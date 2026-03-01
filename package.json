@@ -1,0 +1,26 @@
+{
+  "name": "lsfkit",
+  "version": "1.0.0",
+  "description": "A collection of my Tampermonkey userscripts.",
+  "main": "index.js",
+  "scripts": {
+    "gen-readme": "node generate-readme.js",
+    "build": "tsx src/build.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/tampermonkey": "^5.0.5",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-monkey": "^7.1.9",
+    "tsx": "^4.21.0",
+    "zx": "^8.8.5"
+  },
+  "keywords": [
+    "tampermonkey",
+    "userscripts"
+  ],
+  "author": "liudaohui404",
+  "license": "MIT"
+}
