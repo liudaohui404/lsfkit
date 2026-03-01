@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gen-readme": "node generate-readme.js",
-    "build": "tsx src/build.ts"
+    "build": "tsx src/build.ts && yarn gen-readme"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
